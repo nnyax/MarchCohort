@@ -1,0 +1,42 @@
+body{
+    background-color: bisque;
+    text-align: center;
+}
+
+h1,h3,h4{
+    color:chocolate;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+div{
+    text-align: left;}
+
+a:link, a:visited {
+    color:brown;
+    text-align: center;
+}
+
+a:hover, a:active {
+    color: orange
+}
+img{
+    border: 10px solid chocolate;
+    padding: 1px;
+}
+
+ul {
+    list-style-type:square center;
+}
+
+.ramadan-series {
+    text-transform: uppercase;
+    font-size: smaller;
+    text-align: center;
+    text-decoration: none;
+}
+
+#title {
+    background-color: chocolate;
+    color: bisque;
+}
