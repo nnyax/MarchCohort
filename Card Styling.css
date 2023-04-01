@@ -25,16 +25,16 @@ div{
     float:left;
 }
 
+.boximg1{
+    padding:10px 25px 0px;
+    width: 75%
+}
+
 #Box1{
     background-color: rgb(224, 206, 240);
     margin:10px;
     text-align: center;
 
-}
-
-.boximg1{
-    padding:10px 25px 0px;
-    width: 75%
 }
 
 #Box2{
@@ -48,22 +48,6 @@ div{
     background-color: rgb(219, 178, 255);
     margin:10px;
     text-align: center;
-
-}
-
-footer{
-    text-align: center;
-    font-size: smaller;
-    font-style: italic;
-}
-
-#navelements{
-   display:block;
-    margin:2px;
-    padding: 5px 5px;
-    border-right: 1px solid rgb(224, 206, 240);
-    text-align: center;
-
 }
 
 #navbar{
@@ -74,13 +58,24 @@ footer{
     padding: 5px 5px;
 }
 
-a{
+#navelements a{
+    display:block;
+    margin:2px;
+    padding: 5px 5px;
+    border-right: 1px solid rgb(224, 206, 240);
+    text-align: center;
     color:white;
     text-decoration: none;
 }
 
 #navelements:hover {
     background-color: darkviolet;
+}
+
+footer{
+    text-align: center;
+    font-size: smaller;
+    font-style: italic;
 }
 
 
