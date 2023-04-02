@@ -1,0 +1,63 @@
+.flex-container{
+    width:75%;
+    margin:auto 150px;
+}
+
+header h2 span {
+    color: orange
+}
+
+ul {
+    list-style-type: none;
+}
+
+#nav-bar{
+    display:flex;
+    justify-content: flex-end;
+    
+}
+
+header nav ul li a {
+    padding: 15px 10px;
+    text-decoration: none;
+    color: black; 
+    font-size: small;
+
+}
+
+a:hover{
+    color: orange;
+}
+
+main div {
+    background-color: orange;
+    text-align: center;
+}
+
+main div span p {
+    background-color:rgb(35, 35, 35);
+    color:white;
+    text-align:center;
+    padding: 10px;
+    margin-bottom: 0%;
+}
+.container{
+    margin: auto 10%;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+img{
+    width: 20%;
+    margin: 10px 25px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-size:xx-small;
+    padding: 40px;
+    text-align: left;
+}
