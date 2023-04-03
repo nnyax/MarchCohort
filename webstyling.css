@@ -1,6 +1,6 @@
 .flex-container{
-    width:75%;
-    margin:auto 150px;
+    width:80%;
+    margin:auto 10%;
 }
 
 header h2 span {
@@ -29,29 +29,34 @@ a:hover{
     color: orange;
 }
 
-main div {
+main{
     background-color: orange;
     text-align: center;
 }
 
-main div span p {
+main span p {
     background-color:rgb(35, 35, 35);
     color:white;
     text-align:center;
     padding: 10px;
     margin-bottom: 0%;
 }
+
+.container div{
+    width: 20%;
+    padding: 10px 25px;
+}
+
 .container{
     margin: auto 10%;
     display:flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 img{
-    width: 20%;
-    margin: 10px 25px;
+    width: 100%;
 }
 
 footer{
